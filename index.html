@@ -1,9 +1,54 @@
-<html>
-<body>
-in progress...
-<br>
-<a href="jsworkshop/">Javascript Workshop</a>
-<br>
-Try <a href="http://msssk.bitbucket.org">msssk@bitbucket</a>
-</body>
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>Mangala Khalsa</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link href="index.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div>
+			Mangala Khalsa
+		</div>
+		<div>
+			I write web applications
+		</div>
+
+		<main>
+			<h1>Some things I made for fun</h1>
+
+			<section>
+				<h2>
+					<a href="https://github.com/msssk/tizi" target="_blank">tizi</a>: JSX component factory
+				</h2>
+				<p>
+					The TypeScript compiler will parse JSX and translate it to JavaScript function calls, so to create
+					a JSX factory in TypeScript all you have to do is implement a function and configure TS to invoke
+					it (instead of for example React). tizi is a very small JSX factory with support for components.
+					tizi just renders DOM. tizi components can expose an external API to manage UI updates.
+				</p>
+			</section>
+
+			<section>
+				<h2>
+					<a href="https://github.com/msssk/chilloclock" target="_blank">Chill O'clock</a>: geolocation-based approximate clock
+				</h2>
+
+				<h3>
+					What time is it? <i>It's chill o'clock</i>
+				</h3>
+
+				<p>
+					<a href="https://msssk.github.io/chilloclock/" target="_blank">Try it yourself</a>
+				</p>
+				<p>
+					Chill O'clock breaks the day into 8 sections and the night into 4. The length of day and night is
+					calculated from your latitude and longitude, and of course the date. Rather than giving a precise
+					time it gives a rough idea of which part of the day or night you are in for your geographic location
+					and the season - summer days are of course longer than winter days.
+				</p>
+			</section>
+		</main>
+	</body>
 </html>
